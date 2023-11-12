@@ -25,3 +25,16 @@ export enum UserRoles{
     SpecialistHCP = "SpecialistHCP",
     MedicalDirector = "MedicalDirector"
 }
+
+export enum MedicalGenders{
+    Male = "Male",
+    Female = "Female"
+}
+
+export enum RetinopathyGrades{
+    NoApparentDR = "NoApparentDR",
+    MildNPDR = "MildNPDR",
+    ModerateNPDR = "ModerateNPDR",
+    SevereNPDR = "SevereNPDR",
+    PDR = "PDR"
+}
