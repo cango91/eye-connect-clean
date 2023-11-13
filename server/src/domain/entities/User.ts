@@ -7,7 +7,7 @@ export default class User extends AuditableEntity {
     public email: string;
     public name: string;
     public institution: string;
-    public additionalInfo: string;
+    public additionalInfo?: string;
     public role: UserRoles;
     public validationStatus: ValidationStatus;
     public notifications: Notification[];
